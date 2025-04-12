@@ -1,8 +1,8 @@
-/* Style for Pacto Jurídico Website */
+/* Estilo general para la página */
 body {
     font-family: Arial, sans-serif;
     background-color: #1A2A4D; /* Azul marino */
-    color: #F2C24E; /* Amarillo suave */
+    color: #FFFFFF; /* Letras blancas */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,59 +11,89 @@ body {
 header {
     background-color: #0A1B36;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .logo-container img {
-    max-width: 150px;
-}
-
-h1, h2 {
-    font-family: 'Helvetica', sans-serif;
+    max-width: 200px;
 }
 
 h1 {
-    font-size: 3em;
-    color: #F2C24E;
+    font-size: 4em; /* Más grande */
+    text-transform: uppercase; /* Mayúsculas */
+    color: #F2C24E; /* Color amarillo */
 }
 
-p {
-    font-size: 1.2em;
+.slogan {
+    font-size: 1.5em;
     margin-top: 10px;
 }
 
+#specialties {
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: #000000;
+}
+
+#specialties h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
 #specialties ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 #specialties li {
+    display: inline-block;
     margin: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 #professionals {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+    text-align: center;
+    margin: 50px 0;
 }
 
 .professional {
-    margin: 0 20px;
+    display: inline-block;
+    margin: 20px;
     text-align: center;
 }
 
 .professional img {
-    width: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Círculo */
+    object-fit: cover;
+}
+
+.professional p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 #contact {
+    background-color: #FFFFFF;
+    padding: 20px;
     text-align: center;
-    margin: 20px 0;
+}
+
+.contact-box {
+    background-color: #F2C24E;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #000000;
+}
+
+.contact-box h2 {
+    margin-bottom: 15px;
 }
 
 footer {
@@ -71,7 +101,4 @@ footer {
     color: #F2C24E;
     text-align: center;
     padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
