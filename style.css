@@ -58,19 +58,29 @@ header {
 #professionals {
     text-align: center;
     margin: 50px 0;
-    display: flex;
-    justify-content: space-around; /* Espacio entre las abogadas */
 }
 
-.professional {
-    display: inline-block;
-    margin: 20px;
+.professionals-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.professional-container {
+    display: flex;
+    justify-content: center; /* Centra las abogadas */
+    gap: 50px; /* Espacio entre las fotos */
+}
+
+.professional-left, .professional-right {
     text-align: center;
+    flex: 1; /* Asegura que las imágenes estén centradas dentro de sus contenedores */
 }
 
 .professional img {
-    width: 320px;
-    height: 400px; /* Proporción 4:5 */
+    width: 270px;
+    height: 340px; /* Proporción 4:5 */
     object-fit: cover; /* Ajuste adecuado de la imagen */
 }
 
@@ -118,4 +128,64 @@ footer {
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
+}
+
+/* Diseño responsivo para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    /* Header */
+    .header-image {
+        height: 300px; /* Ajuste de la altura para pantallas más pequeñas */
+    }
+
+    /* Specialties */
+    #specialties {
+        padding: 20px;
+    }
+
+    #specialties ul {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #specialties li {
+        margin: 10px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    /* Professionals */
+    #professionals {
+        display: block;
+        margin: 40px 0;
+    }
+
+    .professional-container {
+        display: block;
+        text-align: center;
+    }
+
+    .professional-left, .professional-right {
+        margin-bottom: 30px;
+    }
+
+    .professional img {
+        width: 100%; /* Hacer que las imágenes ocupen todo el ancho en pantallas pequeñas */
+        max-width: 270px; /* Mantener un límite para no hacerlas demasiado grandes */
+        height: auto;
+    }
+
+    /* Contact */
+    #contact {
+        padding: 15px;
+    }
+
+    .contact-box {
+        padding: 20px;
+    }
+
+    .chat-button {
+        padding: 8px 15px;
+    }
 }
