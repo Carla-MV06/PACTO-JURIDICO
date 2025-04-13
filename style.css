@@ -79,8 +79,8 @@ header {
 }
 
 .professional img {
-    width: 270px;
-    height: 340px; /* Proporción 4:5 */
+    width: 250px;
+    height: 310px; /* Proporción 4:5 */
     object-fit: cover; /* Ajuste adecuado de la imagen */
 }
 
@@ -172,7 +172,7 @@ footer {
 
     .professional img {
         width: 100%; /* Hacer que las imágenes ocupen todo el ancho en pantallas pequeñas */
-        max-width: 270px; /* Mantener un límite para no hacerlas demasiado grandes */
+        max-width: 250px; /* Mantener un límite para no hacerlas demasiado grandes */
         height: auto;
     }
 
