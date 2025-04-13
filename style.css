@@ -58,29 +58,19 @@ header {
 #professionals {
     text-align: center;
     margin: 50px 0;
-}
-
-.professionals-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-.professional-container {
     display: flex;
-    justify-content: center; /* Centra las abogadas */
-    gap: 50px; /* Espacio entre las fotos */
+    justify-content: space-around; /* Espacio entre las abogadas */
 }
 
-.professional-left, .professional-right {
+.professional {
+    display: inline-block;
+    margin: 20px;
     text-align: center;
-    flex: 1; /* Asegura que las imágenes estén centradas dentro de sus contenedores */
 }
 
 .professional img {
-    width: 270px;
-    height: 340px; /* Proporción 4:5 */
+    width: 320px;
+    height: 400px; /* Proporción 4:5 */
     object-fit: cover; /* Ajuste adecuado de la imagen */
 }
 
@@ -115,4 +105,17 @@ header {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #c8e6c9; /* Verde claro */
-    color: #0d1730; /* Texto*
+    color: #0d1730; /* Texto en negro */
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0d1730;
+    color: #d6b884;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
