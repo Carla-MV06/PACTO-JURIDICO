@@ -43,13 +43,15 @@ header {
 #specialties ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    text-align: left; /* Alineación izquierda de las especialidades */
     margin: 0;
+    display: flex;
+    justify-content: space-between; /* Especialidades en los bordes */
 }
 
 #specialties li {
     display: inline-block;
-    margin: 10px;
+    margin: 0 15px; /* Espaciado entre las especialidades */
     font-size: 16px; /* Aumento el tamaño de la fuente */
     font-weight: bold;
     text-transform: uppercase;
@@ -58,13 +60,21 @@ header {
 #professionals {
     text-align: center;
     margin: 50px 0;
+}
+
+.professionals-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.professional-container {
     display: flex;
     justify-content: space-evenly; /* Mayor espacio entre las imágenes de las abogadas */
 }
 
-.professional {
-    display: inline-block;
-    margin: 20px;
+.professional-left, .professional-right {
     text-align: center;
 }
 
