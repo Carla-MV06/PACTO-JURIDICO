@@ -26,17 +26,22 @@ header {
 }
 
 .logo {
-    width: 100%; /* Ocupa todo el espacio vertical */
-    height: 100vh; /* Ocupa toda la altura */
-    object-fit: contain;
+    width: 35%; /* Logo más pequeño */
     margin-bottom: 20px; /* Espacio entre el logo y el texto */
 }
 
 .header-text h1 {
-    font-size: 6em; /* PACTO JURÍDICO más grande */
+    font-size: 5em; /* PACTO JURÍDICO más grande */
     text-transform: uppercase;
     color: #D4AF37; /* Amarillo más oscuro y elegante */
     margin: 0;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: #D4AF37; /* Amarillo más oscuro */
+    margin-top: 10px;
 }
 
 .slogan {
