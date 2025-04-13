@@ -1,7 +1,7 @@
 /* Estilo general para la página */
 body {
     font-family: 'Times New Roman', serif;
-    background-color: #1D3557; /* Azul marino (igual al de tu logo) */
+    background-color: #003366; /* Azul más oscuro (como el de tu logo) */
     color: #FFFFFF; /* Letras blancas */
     margin: 0;
     padding: 0;
@@ -11,30 +11,39 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 40px;
+    background-color: #003366; /* Azul más oscuro */
 }
 
 .logo-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 .logo {
-    width: 250px; /* Logo grande */
-    margin-right: 20px; /* Espacio entre el logo y el texto */
+    width: 100%; /* Ocupa todo el espacio vertical */
+    height: 100vh; /* Ocupa toda la altura */
+    object-fit: contain;
+    margin-bottom: 20px; /* Espacio entre el logo y el texto */
 }
 
 .header-text h1 {
-    font-size: 5em; /* Pacto Jurídico más grande */
+    font-size: 6em; /* PACTO JURÍDICO más grande */
     text-transform: uppercase;
-    color: #F2C24E; /* Amarillo suave */
+    color: #D4AF37; /* Amarillo más oscuro y elegante */
     margin: 0;
 }
 
 .slogan {
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-style: italic; /* Cursiva */
     margin-top: 10px;
+    text-transform: uppercase; /* Mayúsculas */
 }
 
 #specialties {
@@ -45,8 +54,9 @@ header {
 
 #specialties h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
+    text-transform: uppercase; /* Mayúsculas */
 }
 
 #specialties ul {
@@ -58,8 +68,9 @@ header {
 #specialties li {
     display: inline-block;
     margin: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
+    text-transform: uppercase; /* Mayúsculas */
 }
 
 #professionals {
@@ -82,8 +93,9 @@ header {
 
 .professional p {
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
+    text-transform: uppercase; /* Mayúsculas */
 }
 
 #contact {
@@ -93,7 +105,7 @@ header {
 }
 
 .contact-box {
-    background-color: #F2C24E;
+    background-color: #D4AF37; /* Amarillo más oscuro */
     padding: 30px;
     border-radius: 10px;
     display: inline-block;
@@ -102,11 +114,13 @@ header {
 
 .contact-box h2 {
     margin-bottom: 15px;
+    text-transform: uppercase; /* Mayúsculas */
 }
 
 footer {
-    background-color: #0A1B36;
-    color: #F2C24E;
+    background-color: #003366;
+    color: #D4AF37; /* Amarillo más oscuro */
     text-align: center;
     padding: 10px;
+    text-transform: uppercase; /* Mayúsculas */
 }
