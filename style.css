@@ -115,17 +115,4 @@ header {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #c8e6c9; /* Verde claro */
-    color: #0d1730; /* Texto en negro */
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #0d1730;
-    color: #d6b884;
-    text-align: center;
-    padding: 10px;
-    text-transform: uppercase;
-}
+    color: #0d1730; /* Texto*
