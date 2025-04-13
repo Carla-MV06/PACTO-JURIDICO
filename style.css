@@ -19,7 +19,7 @@ header {
 }
 
 .header-image {
-    background-image: url("/mnt/data/ARRIBA ARRIBA.jpg"); /* Imagen subida */
+    background-image: url("ARRIBA ARRIBA.jpg"); /* Imagen subida */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -28,15 +28,6 @@ header {
     top: 0;
     border-left: 50px solid #0d1730; /* Agregar borde izquierdo para espacio */
     border-right: 50px solid #0d1730; /* Agregar borde derecho para espacio */
-}
-
-.logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    margin-top: 50px; /* Ajuste para evitar superposición */
 }
 
 #specialties {
