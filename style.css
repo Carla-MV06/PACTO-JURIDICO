@@ -61,10 +61,10 @@ header {
 }
 
 .professionals-title {
-    font-size: 24px;
+    font-size: 20px; /* Reducir tamaño */
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Reducir el margen */
 }
 
 .professional-container {
@@ -79,14 +79,14 @@ header {
 }
 
 .professional img {
-    width: 250px;
-    height: 310px; /* Proporción 4:5 */
+    width: 250px; /* Reducir el tamaño de las imágenes */
+    height: 310px; /* Mantener la proporción 4:5 */
     object-fit: cover; /* Ajuste adecuado de la imagen */
 }
 
 .professional-name {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px; /* Reducir tamaño de texto */
     font-weight: bold;
     text-transform: uppercase;
 }
