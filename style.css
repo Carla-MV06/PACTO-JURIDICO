@@ -30,7 +30,7 @@ header {
     background-color: #FFFFFF;
     padding: 30px;
     color: #000000;
-    margin-top: -10px; /* Ajuste para quitar el espacio extra */
+    margin-top: 30px; /* Ajuste para quitar el espacio extra */
 }
 
 #specialties h2 {
@@ -44,7 +44,7 @@ header {
     list-style: none;
     padding: 0;
     text-align: center;
-    margin: 0; /* Aseguro que no haya espacio adicional */
+    margin: 0;
 }
 
 #specialties li {
@@ -59,7 +59,7 @@ header {
     text-align: center;
     margin: 50px 0;
     display: flex;
-    justify-content: space-around; /* Espacio entre las abogadas */
+    justify-content: space-evenly; /* Mayor espacio entre las imágenes de las abogadas */
 }
 
 .professional {
