@@ -1,7 +1,7 @@
 /* Estilo general para la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1A2A4D; /* Azul marino */
+    font-family: 'Times New Roman', serif;
+    background-color: #1D3557; /* Azul marino (igual al de tu logo) */
     color: #FFFFFF; /* Letras blancas */
     margin: 0;
     padding: 0;
@@ -9,24 +9,31 @@ body {
 }
 
 header {
-    background-color: #0A1B36;
-    text-align: center;
+    display: flex;
+    align-items: center;
     padding: 40px;
 }
 
-.logo-container img {
-    max-width: 200px;
-    margin-bottom: 20px;
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
-h1 {
-    font-size: 4em; /* Más grande */
-    text-transform: uppercase; /* Mayúsculas */
-    color: #F2C24E; /* Color amarillo */
+.logo {
+    width: 250px; /* Logo grande */
+    margin-right: 20px; /* Espacio entre el logo y el texto */
+}
+
+.header-text h1 {
+    font-size: 5em; /* Pacto Jurídico más grande */
+    text-transform: uppercase;
+    color: #F2C24E; /* Amarillo suave */
+    margin: 0;
 }
 
 .slogan {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-style: italic; /* Cursiva */
     margin-top: 10px;
 }
 
