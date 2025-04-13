@@ -15,7 +15,6 @@ header {
     flex-direction: column;
     padding: 40px;
     position: relative;
-    background-color: #0d1730; /* Azul marino oscuro */
 }
 
 .header-image {
@@ -23,9 +22,7 @@ header {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px; /* Ajustar altura para que la imagen se vea bien */
-    position: absolute;
-    top: 0;
+    height: 400px; /* Ajuste la altura para que la imagen se vea correctamente */
 }
 
 #presentation {
@@ -54,7 +51,7 @@ header {
 
 #specialties h2 {
     text-align: center;
-    font-size: 12px;
+    font-size: 20px; /* Aumento el tamaño de la fuente de especialidades */
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -68,7 +65,7 @@ header {
 #specialties li {
     display: inline-block;
     margin: 10px;
-    font-size: 12px;
+    font-size: 16px; /* Aumento el tamaño de la fuente de especialidades */
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -85,14 +82,14 @@ header {
 }
 
 .professional img {
-    width: 350px;
-    height: 200px;
-    object-fit: cover; /* Imágenes más grandes y bien ajustadas */
+    width: 400px;
+    height: 300px; /* Tamaño grande para las fotos */
+    object-fit: cover;
 }
 
 .professional-name {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 20px; /* Tamaño más grande para los nombres */
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -114,22 +111,6 @@ header {
 .contact-box h2 {
     margin-bottom: 15px;
     text-transform: uppercase;
-}
-
-.contact-details {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact-column {
-    width: 45%; /* Dos columnas */
-    text-align: left;
-}
-
-.contact-column img {
-    width: 20px; /* Ajustar los iconos */
-    margin-right: 10px;
 }
 
 .chat-button {
