@@ -102,4 +102,30 @@ header {
     padding: 30px;
     border-radius: 10px;
     display: inline-block;
-    color: #000000
+    color: #000000;
+}
+
+.contact-box h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.chat-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c8e6c9; /* Verde claro */
+    color: #0d1730; /* Texto en negro */
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0d1730;
+    color: #d6b884;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
