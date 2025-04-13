@@ -19,15 +19,15 @@ header {
 }
 
 .header-image {
-    background-image: url("ARRIBA ARRIBA.jpg"); /* Imagen subida */
+    background-image: url("ARRIBA ARRIBA.jpg"); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 300px; /* Ajustar altura */
     position: absolute;
     top: 0;
-    border-left: 50px solid #0d1730; /* Agregar borde izquierdo para espacio */
-    border-right: 50px solid #0d1730; /* Agregar borde derecho para espacio */
+    border-left: 50px solid #0d1730; /* Espacio */
+    border-right: 50px solid #0d1730; /* Espacio */
 }
 
 #specialties {
@@ -40,7 +40,7 @@ header {
     text-align: center;
     font-size: 12px; /* Tamaño más pequeño */
     margin-bottom: 20px;
-    text-transform: uppercase; /* Mayúsculas */
+    text-transform: uppercase;
 }
 
 #specialties ul {
@@ -54,7 +54,7 @@ header {
     margin: 10px;
     font-size: 12px; /* Tamaño más pequeño */
     font-weight: bold;
-    text-transform: uppercase; /* Mayúsculas */
+    text-transform: uppercase;
 }
 
 #professionals {
@@ -70,34 +70,15 @@ header {
 
 .professional img {
     width: 300px;
-    height: 150px;
-    object-fit: cover; /* Rectangular */
+    height: 150px; /* Formato rectangular */
+    object-fit: cover;
 }
 
 .professional p {
     margin-top: 10px;
     font-size: 14px;
     font-weight: bold;
-    text-transform: uppercase; /* Mayúsculas */
-}
-
-#registration {
-    text-align: center;
-    margin: 50px 0;
-}
-
-#registration form {
-    display: inline-block;
-    padding: 20px;
-    background-color: #d6b884;
-    border-radius: 10px;
-}
-
-#registration input, #registration button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 14px;
-    width: 100%;
+    text-transform: uppercase;
 }
 
 #contact {
@@ -116,15 +97,15 @@ header {
 
 .contact-box h2 {
     margin-bottom: 15px;
-    text-transform: uppercase; /* Mayúsculas */
+    text-transform: uppercase;
 }
 
 .chat-button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #d6b884;
-    color: #0d1730;
+    background-color: #c8e6c9; /* Verde claro */
+    color: #0d1730; /* Texto en negro */
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
@@ -133,8 +114,8 @@ header {
 
 footer {
     background-color: #0d1730;
-    color: #d6b884; /* Amarillo más oscuro */
+    color: #d6b884;
     text-align: center;
     padding: 10px;
-    text-transform: uppercase; /* Mayúsculas */
+    text-transform: uppercase;
 }
