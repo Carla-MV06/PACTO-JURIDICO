@@ -26,28 +26,11 @@ header {
     height: 400px; /* Ajuste la altura para que la imagen se vea correctamente */
 }
 
-#presentation {
-    text-align: center;
-    margin-top: 50px;
-}
-
-#presentation h1 {
-    font-size: 3em;
-    color: #D6B884; /* Color dorado */
-    text-transform: uppercase;
-}
-
-#presentation .slogan {
-    font-size: 1.5em;
-    color: #FFFFFF;
-    font-style: italic;
-    margin-top: 10px;
-}
-
 #specialties {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 30px;
     color: #000000;
+    margin-top: -10px; /* Ajuste para quitar el espacio extra */
 }
 
 #specialties h2 {
@@ -61,6 +44,7 @@ header {
     list-style: none;
     padding: 0;
     text-align: center;
+    margin: 0; /* Aseguro que no haya espacio adicional */
 }
 
 #specialties li {
