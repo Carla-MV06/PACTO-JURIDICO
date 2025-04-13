@@ -1,7 +1,7 @@
 /* Estilo general para la página */
 body {
     font-family: 'Times New Roman', serif;
-    background-color: #003366; /* Azul más oscuro (como el de tu logo) */
+    background-color: #002f6c; /* Azul marino oscuro */
     color: #FFFFFF; /* Letras blancas */
     margin: 0;
     padding: 0;
@@ -14,7 +14,18 @@ header {
     justify-content: center;
     flex-direction: column;
     padding: 40px;
-    background-color: #003366; /* Azul más oscuro */
+    position: relative;
+    background-color: #002f6c; /* Azul marino oscuro */
+}
+
+.header-image {
+    background-image: url("PARTE DE ARRIBA.png"); /* Imagen que subiste */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px; /* Ajuste de la altura de la imagen */
+    position: absolute;
+    top: 0;
 }
 
 .logo-container {
@@ -23,6 +34,7 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
+    margin-top: 50px; /* Ajuste para evitar superposición */
 }
 
 .logo {
@@ -33,7 +45,7 @@ header {
 .header-text h1 {
     font-size: 5em; /* PACTO JURÍDICO más grande */
     text-transform: uppercase;
-    color: #D4AF37; /* Amarillo más oscuro y elegante */
+    color: #D4AF37; /* Amarillo elegante */
     margin: 0;
 }
 
@@ -123,7 +135,7 @@ header {
 }
 
 footer {
-    background-color: #003366;
+    background-color: #002f6c;
     color: #D4AF37; /* Amarillo más oscuro */
     text-align: center;
     padding: 10px;
