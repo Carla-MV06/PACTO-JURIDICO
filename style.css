@@ -19,7 +19,7 @@ header {
 }
 
 .header-image {
-    background-image: url("PARTE DE ARRIBA.png"); /* Imagen que subiste */
+    background-image: url("/mnt/data/image.png"); /* Cambié la ruta a la imagen que subiste */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -35,32 +35,6 @@ header {
     width: 100%;
     text-align: center;
     margin-top: 50px; /* Ajuste para evitar superposición */
-}
-
-.logo {
-    width: 35%; /* Logo más pequeño */
-    margin-bottom: 20px; /* Espacio entre el logo y el texto */
-}
-
-.header-text h1 {
-    font-size: 5em; /* PACTO JURÍDICO más grande */
-    text-transform: uppercase;
-    color: #D4AF37; /* Amarillo elegante */
-    margin: 0;
-}
-
-.line {
-    width: 50%;
-    height: 2px;
-    background-color: #D4AF37; /* Amarillo más oscuro */
-    margin-top: 10px;
-}
-
-.slogan {
-    font-size: 2.5em;
-    font-style: italic; /* Cursiva */
-    margin-top: 10px;
-    text-transform: uppercase; /* Mayúsculas */
 }
 
 #specialties {
