@@ -72,10 +72,12 @@ header {
 .professional-container {
     display: flex;
     justify-content: space-evenly; /* Mayor espacio entre las imágenes de las abogadas */
+    gap: 50px; /* Agrega espacio adicional entre las fotos */
 }
 
 .professional-left, .professional-right {
     text-align: center;
+    flex: 1; /* Asegura que las imágenes estén centradas dentro de sus contenedores */
 }
 
 .professional img {
